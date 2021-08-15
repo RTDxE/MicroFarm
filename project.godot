@@ -1,0 +1,62 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Resource",
+"class": "Trees",
+"language": "GDScript",
+"path": "res://trees_config.gd"
+} ]
+_global_script_class_icons={
+"Trees": ""
+}
+
+[application]
+
+config/name="MicroFarm"
+run/main_scene="res://main.tscn"
+run/low_processor_mode=true
+config/icon="res://icon.png"
+
+[autoload]
+
+GameScore="*res://GameScore.gd"
+
+[display]
+
+window/size/width=1080
+window/size/height=1920
+window/size/test_width=480
+window/size/test_height=270
+window/handheld/orientation="portrait"
+window/stretch/mode="2d"
+window/stretch/aspect="expand"
+
+[locale]
+
+translations=PoolStringArray( "res://main.en.translation", "res://main.ru.translation" )
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+quality/driver/driver_name="GLES2"
+quality/intended_usage/framebuffer_allocation=1
+quality/intended_usage/framebuffer_allocation.mobile=1
+vram_compression/import_etc=true
+vram_compression/import_etc2=false
+quality/shadows/filter_mode=0
+quality/reflections/texture_array_reflections=false
+quality/reflections/high_quality_ggx=false
+quality/lightmapping/use_bicubic_sampling=false
+quality/depth/hdr=false
+quality/dynamic_fonts/use_oversampling=false

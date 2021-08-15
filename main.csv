@@ -1,0 +1,6 @@
+keys,en,ru
+NO_MONEY,"Oops! Not enough gold.\n(1 reward = 100 gold)","Упс! Не хватает золота.\n(1 реклама = 100 золота)"
+NO_WATER,"Oops! No water.\n(1 reward = 3 units of water)","Упс! Нет воды.\n(1 реклама = 3 ед. воды)"
+LOCKED,"LOCKED","НЕДОСТУПНО"
+PLANT_NEW,"Plant new tree!","Посади дерево!"
+PICK_IT,"Pick it!","Собери!"

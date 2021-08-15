@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Edoy-Waiting.ogg-34fe7f95798a2fd22c04e48644296ed4.oggstr"
+
+[deps]
+
+source_file="res://Edoy-Waiting.ogg"
+dest_files=[ "res://.import/Edoy-Waiting.ogg-34fe7f95798a2fd22c04e48644296ed4.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
